@@ -19,6 +19,7 @@ GEM
       maruku (~> 0.5)
       pygments.rb (~> 0.5.0)
       safe_yaml (~> 0.7.0)
+    kgio (2.8.0)
     kramdown (1.0.2)
     liquid (2.5.0)
     maruku (0.6.1)
@@ -31,8 +32,13 @@ GEM
     rack-jekyll (0.4.1)
       jekyll (>= 0.12.0, < 2.0)
       rack (~> 1.5.0)
+    raindrops (0.11.0)
     safe_yaml (0.7.1)
     syntax (1.0.0)
+    unicorn (4.6.3)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -42,3 +48,4 @@ DEPENDENCIES
   jekyll
   rack
   rack-jekyll
+  unicorn

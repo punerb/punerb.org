@@ -1,2 +1,10 @@
-source: _posts
-destination: _site
+name: Pune.rb
+pygments: true
+exclude:
+ - unicorn.rb
+ - README.md
+ - Procfile
+ - Gemfile
+ - Gemfile.lock
+ - config.ru
+ - vendor
