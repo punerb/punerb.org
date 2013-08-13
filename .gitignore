@@ -2,3 +2,5 @@ log/*
 tmp/*
 _site/*
 
+# Ignore Gemfile.lock
+Gemfile.lock
