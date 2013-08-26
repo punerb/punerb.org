@@ -6,3 +6,4 @@ gem "rack"
 gem "jekyll"
 gem "rack-jekyll"
 gem "unicorn"
+gem 'rack-rewrite'
