@@ -48,6 +48,11 @@ body {
 	background-position: -126px 0;
 	width: 23px;
 }
+.navbar .social li.github a {
+	background-position: -170px 0;
+	width: 24px;
+  margin-top: 1px;
+}
 .navbar .social li a:hover{
 	-webkit-filter: grayscale(0);
 }
