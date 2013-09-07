@@ -18,6 +18,6 @@ Mailing List - `https://groups.google.com/forum/#!forum/puneruby`
 
 3) Make changes
 
-4) `jekyll serve` to test locally
+4) `shotgun` to test locally
 
 5) Send Pull Request
