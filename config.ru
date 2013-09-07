@@ -1,4 +1,4 @@
 require "bundler/setup"
+require "./app"
 Bundler.require(:default)
-
-run Rack::Jekyll.new(:destination => '_site')
+run Sinatra::Application
