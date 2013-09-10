@@ -1,7 +1,7 @@
 # Website for Pune Ruby User Group
 
 
-Website - [punerb.org](punerb.org)
+Website - [http://punerb.org](punerb.org)
 
 IRC - `#punerb` on freenode
 
