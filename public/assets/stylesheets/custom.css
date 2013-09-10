@@ -69,6 +69,6 @@ h2 {
     width: 100%;
     overflow: hidden;
     text-align: center;
-    box-shadow: 0 0 3px;
+    box-shadow: 0 0 3px #ccc;
     margin: 0 0 30px;
 }
