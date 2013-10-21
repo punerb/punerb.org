@@ -16,6 +16,12 @@ end
 
 group :test do
   gem 'rack-test', require: 'rack/test'
+  gem 'jasmine'
+  gem 'guard-jasmine'
+end
+
+group :development, :test do
+  gem 'guard-livereload', require: false
 end
 
 group :production do
