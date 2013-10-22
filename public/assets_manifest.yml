@@ -6,4 +6,5 @@ stylesheets:
 javascripts:
   - "public/assets/javascripts/jquery-2.0.3.min.js"
   - "public/assets/javascripts/bootstrap.min.js"
+  - "public/assets/javascripts/time_remaining.js"
   - "public/assets/javascripts/app.js"
