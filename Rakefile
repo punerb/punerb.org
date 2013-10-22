@@ -14,7 +14,6 @@ rescue LoadError
   end
 end
 
-
 namespace :assets do
   task :precompile do
     assets = YAML.load_file ASSETS_MANIFEST_FILE
