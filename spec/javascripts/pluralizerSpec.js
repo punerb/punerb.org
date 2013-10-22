@@ -23,4 +23,3 @@ describe('pluralizer', function() {
     expect(pluralize(this.testNoun, count)).toEqual('days')
   })
 })
-
