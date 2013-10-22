@@ -5,7 +5,7 @@ var time_difference = function(startDate, endDate) {
 
 var time_remaining_in_days = function(startDate, endDate) {
   var difference = time_difference(startDate, endDate)
-  days = Math.abs(difference/ONE_DAY)
+  days = Math.ceil( Math.abs(difference/ONE_DAY) )
   var after = ''
   if(difference < 0) {
     after = ' ago'
