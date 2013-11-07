@@ -1,0 +1,10 @@
+stylesheets:
+  - "public/assets/stylesheets/bootstrap.min.css"
+  - "public/assets/stylesheets/bootstrap-responsive.min.css"
+  - "public/assets/stylesheets/custom.css"
+
+javascripts:
+  - "public/assets/javascripts/jquery-2.0.3.min.js"
+  - "public/assets/javascripts/bootstrap.min.js"
+  - "public/assets/javascripts/time_remaining.js"
+  - "public/assets/javascripts/app.js"
