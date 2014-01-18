@@ -1,6 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  @days = (Date.parse("2014/1/18").mjd - Date.today.mjd).to_i
+  next_meetup_date = Date.parse('2014/2/1')
+  @days = (next_meetup_date.mjd - Date.today.mjd).to_i
   erb :index
 end
