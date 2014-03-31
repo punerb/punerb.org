@@ -2,6 +2,12 @@ body {
     padding-top: 90px;
     font: 14px/1.5 'Roboto', sans-serif;
 }
+ 
+@media (max-width: 980px) {
+    body {
+	padding-top: 0;
+    }
+}
 .navbar-fixed-top .navbar-inner {
     min-height: 70px;
     box-sizing: border-box;
