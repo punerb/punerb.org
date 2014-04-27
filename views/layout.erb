@@ -36,7 +36,16 @@
     </div>
     <!-- End of header navbar -->
 
-    <%= yield %>
+    <div class="container">
+      <div class="row">
+        <div class="span8">
+          <%= yield %>
+        </div>
+        <div class="span4">
+          <%= erb :twitter_widget  %>
+        </div>
+      </div>
+    </div>
 
     <!-- footer bar -->
     <div class="container">
