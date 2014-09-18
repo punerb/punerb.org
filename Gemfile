@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.1.1'
+ruby "2.1.2", :patchlevel => "216"
+# ruby '2.1.1'
 
 gem 'sinatra'
 
